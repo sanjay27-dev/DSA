@@ -70,7 +70,6 @@ class MyQueue
 		  throw new RuntimeException("Rear reached.....");
 	   }
 	     return array[++front];
-	   //          5       -4      -1  =0 
    }
 }
       
